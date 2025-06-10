@@ -1,0 +1,172 @@
+[get_all_open_positions WARNING] Network error on attempt 1/3: bybit GET https://api.bybit.com/v5/position/list?settleCoin=USDT&category=linear
+Checking placed order for OMG/USDT (entry: 0.21714949999999997, tp: 0.2803392, sl: 0.2032785)
+
+📡 Checking for trailing SL updates...
+
+🧹 Checking for exited positions to clean from active list...
+
+🔍 Checking watchlist for breakout confirmations...
+
+Checking CLOUD/USDT for breakout...
+Breakout level: 0.13137; Last close: 0.13253
+Breakout detected for CLOUD/USDT. Up volume: 1948250.0, Down volume: 314053.0
+✅ Up volume exceeds down volume
+Placing limit buy for CLOUD/USDT at 0.13176410999999996
+✅ Limit buy order placed for CLOUD/USDT at 0.13176410999999996
+Order response: {'info': {'orderId': 'fcd0208d-077b-48ed-9d6b-3af0001f394d', 'orderLinkId': ''}, 'id': 'fcd0208d-077b-48ed-9d6b-3af0001f394d', 'clientOrderId': None, 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'lastUpdateTimestamp': None, 'symbol': 'CLOUD/USDT:USDT', 'type': None, 'timeInForce': None, 'postOnly': None, 'reduceOnly': None, 'side': None, 'price': None, 'triggerPrice': None, 'takeProfitPrice': None, 'stopLossPrice': None, 'amount': None, 'cost': None, 'average': None, 'filled': None, 'remaining': None, 'status': None, 'fee': None, 'trades': [], 'fees': [], 'stopPrice': None}
+⏳ Checking for expired watchlist entries...
+
+🔍 Checking watchlist for breakout confirmations...
+
+
+Starting the bot...
+
+🔍 Checking active PNL & symbol list size...
+
+
+🔎 Checking if MASK/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: []
+Placed limit orders: []
+
+Checking MASK/USDT...
+✅ 4H trend is up
+❌ No valid resistance found for MASK/USDT
+
+🔎 Checking if GORK/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: []
+Placed limit orders: []
+
+Checking GORK/USDT...
+✅ 4H trend is up
+✅ Clear resistance found
+-> Selected resistance: 0.01399
+✅ 5M trend is up
+✅ ADX = 38.24022011693484
+✅ Breakout level set
+🕑 Added GORK/USDT to the watchlist for breakout monitoring.
+
+
+🔎 Checking if L3/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: ['GORK/USDT']
+Placed limit orders: []
+
+Checking L3/USDT...
+✅ 4H trend is up
+❌ No valid resistance found for L3/USDT
+
+🔎 Checking if ZEN/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: ['GORK/USDT']
+Placed limit orders: []
+
+Checking ZEN/USDT...
+✅ 4H trend is up
+✅ Clear resistance found
+-> Selected resistance: 11.25
+✅ 5M trend is up
+✅ ADX = 37.402485171373336
+✅ Breakout level set
+🕑 Added ZEN/USDT to the watchlist for breakout monitoring.
+
+
+🔎 Checking if TUT/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: ['GORK/USDT', 'ZEN/USDT']
+Placed limit orders: []
+
+Checking TUT/USDT...
+✅ 4H trend is up
+✅ Clear resistance found
+-> Selected resistance: 0.03005
+❌ TUT/USDT is not in 5m uptrend
+🔍 Checking watchlist for breakout confirmations...
+
+Checking GORK/USDT for breakout...
+Breakout level: 0.01251; Last close: 0.01241
+GORK/USDT: No breakout yet. Moving on...
+
+Checking ZEN/USDT for breakout...
+Breakout level: 10.395; Last close: 10.214
+ZEN/USDT: No breakout yet. Moving on...
+
+
+📡 Checking for trailing SL updates...
+
+
+🔎 Checking if SOON/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: ['GORK/USDT', 'ZEN/USDT']
+Placed limit orders: []
+
+Checking SOON/USDT...
+❌ SOON/USDT is not in 4H uptrend
+
+🔎 Checking if LQTY/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: ['GORK/USDT', 'ZEN/USDT']
+Placed limit orders: []
+
+Checking LQTY/USDT...
+✅ 4H trend is up
+✅ Clear resistance found
+-> Selected resistance: 0.9113
+✅ 5M trend is up
+✅ ADX = 38.02624272848167
+✅ Breakout level set
+🕑 Added LQTY/USDT to the watchlist for breakout monitoring.
+
+
+🔎 Checking if KMNO/USDT already being traded...
+Active list symbols: []
+Watchlist symbols: ['GORK/USDT', 'ZEN/USDT', 'LQTY/USDT']
+Placed limit orders: []
+
+Checking KMNO/USDT...
+✅ 4H trend is up
+✅ Clear resistance found
+-> Selected resistance: 0.06699
+✅ 5M trend is up
+[2025-06-01 16:47:50.268685] main ERROR: bybit GET https://api.bybit.com/v5/market/kline?symbol=KMNOUSDT&limit=50&interval=60&category=linear
+🔍 Checking watchlist for breakout confirmations...
+
+Checking GORK/USDT for breakout...
+Breakout level: 0.01251; Last close: 0.01241
+GORK/USDT: No breakout yet. Moving on...
+
+Checking ZEN/USDT for breakout...
+Breakout level: 10.395; Last close: 10.214
+ZEN/USDT: No breakout yet. Moving on...
+
+Checking LQTY/USDT for breakout...
+Breakout level: 0.8556; Last close: 0.8529
+LQTY/USDT: No breakout yet. Moving on...
+
+⏲️ Monitoring placed limit orders (using open positions)...
+
+No open positions found.
+
+
+📡 Checking for trailing SL updates...
+
+🧹 Checking for exited positions to clean from active list...
+
+
+No open positions found.
+
+🔍 Checking watchlist for breakout confirmations...
+
+Checking GORK/USDT for breakout...
+Breakout level: 0.01251; Last close: 0.01235
+GORK/USDT: No breakout yet. Moving on...
+
+Checking ZEN/USDT for breakout...
+Breakout level: 10.395; Last close: 10.191
+ZEN/USDT: No breakout yet. Moving on...
+
+Checking LQTY/USDT for breakout...
+Breakout level: 0.8556; Last close: 0.8375
+LQTY/USDT: No breakout yet. Moving on...
+
